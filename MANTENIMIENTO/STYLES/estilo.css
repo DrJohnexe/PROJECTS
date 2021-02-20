@@ -1,0 +1,150 @@
+body{
+    font-family: arial, Helvetica;
+    background: #17181c;
+    
+}
+p {
+    text-align:center;
+    max-width: 100%;
+    font-size: 19px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+img, object, embed {
+    max-width: 100%;
+    height: auto;
+}
+img {
+      display:inline-block;
+      margin:auto;
+}
+.hw{
+    width: auto;
+}
+.menu img {
+    display:block;
+    margin:auto;
+    height: 80px;
+}
+.video {
+     display:block;
+      margin:auto;
+}
+.banner{
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+    position:sticky;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    max-width: 100%;
+}
+.baner .content{
+    position: sticky;
+    z-index: inherit 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+  color: white;
+    text-align:center;
+}
+h1{
+  color: white;
+    text-align:center;
+}
+/*BARRAh*/
+.barra {
+  opacity: 80%;
+}
+.fill:focus,
+.fill:hover {
+box-shadow: inset 0 0 0 2em var(--hover);
+}
+.pulse:focus,
+.pulse:hover {
+-webkit-animation: pulse 1s;
+animation: pulse 1s;
+box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+@-webkit-keyframes pulse {
+0% {
+  box-shadow: 0 0 var(--hover);
+}
+}
+@keyframes pulse {
+0% {
+  box-shadow: 0 0 var(--hover);
+}
+}
+.close:focus,
+.close:hover {
+box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+.raise:focus,
+.raise:hover {
+box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+-webkit-transform: translateY(-0.25em);
+transform: translateY(-0.25em);
+}
+.up:focus,
+.up:hover {
+box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+.slide:focus,
+.slide:hover {
+box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+.offset {
+box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:focus,
+.offset:hover {
+box-shadow: 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.pulse {
+--color: #ffffff;
+--hover: #575757;
+}
+
+button {
+color: var(--color);
+transition: 0.25s;
+}
+button:focus,
+button:hover {
+border-color: var(--hover);
+color: #fff;
+}
+a button {
+background: 0 0;
+border: 2px solid;
+font: inherit;
+line-height: 1;
+margin: 0.5em;
+padding: 1em 2em;
+}
+
+/*FOOTER*/
+.foot {
+  background-color: black;
+  color: white;
+  float: center;
+  text-align: center;
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+  color: rgb(255, 255, 255) 1c;
+  font: 70% sans-serif;
+  opacity: 80%;
+}

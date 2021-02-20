@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"
+    />   <title>Opinion</title>
+    <link rel="icon" type="image/png" href="IMAGES/cpu.png".png">
+     <!-- LNK BARRA -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+   />
+    <!-- LNK FUENTES -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="CSS/estilo.css" rel="stylesheet"/>
+    <!-- LINK SCRIPT -->
+    <script src="JAVASCRIPT/j.js"></script>
+</head>
+<body>
+  <body background="IMAGES/fondo.jpg"></body>
+      <!-- MENU -->
+      <div class="topnav" id="myTopnav">
+        <a href="/INICIO/inicio.html" class="active">HARDWORLD</a>
+        <a href="/NOTICIAS/Noticias.html">Noticias</a>
+        <a href="/BUILD/BUILD.html">Informacion Hardware</a>
+        <a href="/INF.HARDWARE/index.html">Informacion Pc's</a>
+        <a href="/MANTENIMIENTO/Mantenimiento.html">Mantenimiento</a>
+        <a href="/ACERCA/ACERCA.html">Acerca</a>
+        <a href="Formulario.html">Opinon</a>
+        <a href="/Index.html">Salir</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+  <form
+  action="."
+  oninput="range_control_value.value = range_control.valueAsNumber"
+><br>
+  <div class="contenedor">
+    <form action="Formulario.html">
+      <div class="fila">
+        <div class="col-25">
+          <label for="nombre">Nombre</label>
+        </div><br>
+        <div class="col-75">
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+        </div>
+      </div>
+      <div class="fila">
+        <div class="col-25">
+          <label for="apellido">Apellido</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="apellido" name="apellido"
+          placeholder="Escribe tu apellido">
+        </div>
+      </div>
+      <div class="fila">
+        <div class="col-25">
+          <label for="apellido">Correo Electronico</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="correo" name="correo"
+          placeholder="Escribe tu correo electronico">
+        </div>
+      </div>
+      <div class="fila">
+        <div class="col-25">
+          <label for="pais">Calificacion</label>
+        </div>
+        <div class="col-75">
+          <select id="pais" name="pais">
+            <option value="mexico">Excelente</option>
+            <option value="canada">Regular</option>
+            <option value="usa">Mala</option>
+          </select>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="col-25">
+          <label for="tema">Opinion</label>
+        </div>
+        <div class="col-75">
+          <textarea
+            id="tema"
+            name="tema"
+            placeholder="Escribe tu opinion"
+            style="height: 200px;"
+          ></textarea>
+        </div>
+      </div><BR>
+      <div class="fila">
+        <a href="/INICIO/inicio.html">
+          <input type="submit" onclick="Hola()" value="Enviar" /> 
+        </a>
+        <script>
+          function Hola() {
+            alert("Comentario enviado correctamente");
+          }
+        </script>
+      </div>
+    </form><br>
+    <div class="pie">
+      <center>
+        <h2>Contactanos</h2>
+        (81) 30-99-81-04<br /><br />
+        hardworld@gmail.com<br /><br />
+        Gracias por tu opinion<br /><br />
+        Monterrey, N.L, Mexico1
+        <br />
+      </center>
+    </div>
+</div>
+</body>
+</html>
